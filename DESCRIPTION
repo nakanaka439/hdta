@@ -1,0 +1,36 @@
+Package: htda
+Type: Package
+Title: High throughput data analysis
+Version: 0.0.1
+Author: Hikaru Nakahara
+Maintainer: The package maintainer <hikaru.nakahara2218@gmail.com>
+Description: This package can be used for high-throughput genomics, transcriptomics and metabolomics data analysis.
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.1.1
+Depends:
+    R (>= 3.6.0)
+biocViews:
+Imports:
+    biovizBase,
+    DESeq2,
+    dplyr,
+    edgeR,
+    ggbio,
+    ggplot2,
+    magrittr,
+    openxlsx,
+    pheatmap,
+    plyr,
+    R.oo,
+    rlang,
+    tidyverse,
+    tximport,
+    WGCNA
+    mixOmics
+Suggests: 
+    knitr,
+    rmarkdown
+VignetteBuilder: knitr
+Roxygen: list(markdown = TRUE)
