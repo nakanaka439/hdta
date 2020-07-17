@@ -22,13 +22,15 @@ Imports:
     magrittr,
     openxlsx,
     pheatmap,
+	fields,
     plyr,
     R.oo,
     rlang,
     tidyverse,
     tximport,
-    WGCNA
-    mixOmics
+    WGCNA,
+    mixOmics,
+	R6
 Suggests: 
     knitr,
     rmarkdown
