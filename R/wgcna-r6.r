@@ -15,7 +15,7 @@
 #' @export
 #'
 #' @examples
-#' wgcna$WgcnaClass$new(result, datTraitsE)
+#' wgcna <- WgcnaClass$new(result, datTraits)
 
 WgcnaClass <- R6::R6Class("WgcnaClass",
 
