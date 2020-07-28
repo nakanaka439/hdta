@@ -25,15 +25,21 @@ The goal of htda is to ...
 You can install the released version of htda from [CRAN](https://CRAN.R-project.org) with:
 
 ``` r
-#install.packages("htda")
+install.packages("htda")
 ```
 
+And the development version from [GitHub](https://github.com/) with:
+
+``` r
+# install.packages("devtools")
+devtools::install_github("nakanaka439/htda")
+```
 ## Example
 
 This is a basic example which shows you how to solve a common problem:
 
 ```{r example}
-#library(htda)
+library(htda)
 ## basic example code
 ```
 
